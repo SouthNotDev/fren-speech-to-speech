@@ -1,0 +1,34 @@
+# Dependencias principales del sistema speech-to-speech
+sounddevice>=0.4.6
+numpy>=1.21.0
+webrtcvad>=2.0.10
+python-dotenv>=1.0.0
+
+# Transformers y PyTorch para Whisper optimizado
+transformers>=4.35.0
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# Google Generative AI para Gemini con Google Search
+google-generativeai>=0.3.0
+
+# ElevenLabs para TTS
+elevenlabs>=1.0.0
+
+# Dependencias adicionales para optimizaciones
+librosa>=0.10.0  # Para procesamiento de audio avanzado
+scipy>=1.10.0    # Para resampling y filtros
+datasets>=2.14.0 # Para soporte de modelos HuggingFace
+
+# Dependencias opcionales para mejores capacidades
+accelerate>=0.21.0  # Para optimización de modelos
+sentencepiece>=0.1.99  # Para tokenización
+protobuf>=3.20.0  # Para compatibilidad con modelos
+
+# Audio processing adicional (opcional para preprocesamiento)
+# demucs>=4.0.0  # Para separación vocal - comentado por ser pesado
+# noisereduce>=3.0.0  # Para reducción de ruido
+
+# Dependencias del sistema
+requests>=2.28.0
+urllib3>=1.26.0
